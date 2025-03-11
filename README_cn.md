@@ -1,4 +1,4 @@
-# 分割一切
+
 
 ## 功能介绍
 
@@ -25,12 +25,6 @@ mono_mobilesam package 是基于 Mobile SAM 量化部署的使用示例。图像
 1. RDK已烧录好Ubuntu 22.04系统镜像。
 
 2. RDK已成功安装TogetheROS.Bot。
-
-### 功能包安装
-```bash
-sudo apt update 
-sudo apt install -y tros-humble-mono-mobilesam
-```
 
 ## 使用介绍
 
@@ -171,9 +165,7 @@ package初始化后, 在运行终端输出如下信息：
 
 示例中推理的结果会渲染到Web上, 在PC端的浏览器输入http://IP:8000 即可查看图像和算法渲染效果（IP为RDK的IP地址）, 打开界面右上角设置, 选中”全图分割“选项, 可以显示渲染效果。
 
-![](imgs/render_sam.png)
-
-"dump_render_img"设置为"1"时, 渲染效果保存在当前路径的result目录下。
+![](/../static/img/05_Robot_development/03_boxs/function/image/box_adv/render_sam.png)
 
 ## 进阶使用
 
